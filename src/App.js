@@ -5,15 +5,9 @@ import About from './About'
 import Contact from './Contact'
 import Blog from './Blog'
 
-
-
-
-
 class App extends Component {
   render() {
-
     return(
-
       <div className="container-fluid">
 
             <nav className="task-bar bg-dark py-2">
