@@ -9,13 +9,11 @@ class App extends Component {
   render() {
     return(
       <div className="container-fluid">
-
             <nav className="task-bar bg-dark py-2">
               <div className="row">
                 <div className="float-left col-8">
                     <h5 className="text-light mx-5">Free Worldwide shipping on orders over $100!</h5>
                 </div>
-
                 <div className="float-right col-4">
                     <div className="row">
                       <Link href="/Home" className="px-2 "><i className="fa fa-user"></i>my Account</Link>
