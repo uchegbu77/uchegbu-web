@@ -1,0 +1,236 @@
+#wrapper{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*NAVIGATION STYLING STARTS HERE*/
+.navbar-brand{
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.nav-link{
+	padding-left: 1.3rem !important;
+	padding-right: 1.3rem !important;
+	font-family: 'amaranthRegular', sans-serif;
+}
+
+/*.navbar-expand-lg .navbar-nav .nav-link{
+	padding-left: 0;
+	padding-right: 0;
+}*/
+
+#secondNav .nav-item:first-child{
+	border-left:2px solid rgba(237, 234, 234, 0.6);
+}
+
+#secondNav .nav-item:last-child{
+	border-right:none;
+}
+
+#secondNav .nav-item{
+	border-right:2px solid rgba(237, 234, 234, 0.6);
+}
+
+#join{
+	color:green;
+}
+
+/*NAVIGATION STYLING ENDS HERE*/
+
+
+/*BANNER STYLING STARTS HERE*/
+
+#topBanner{
+	background: url('../images/opendesk.jpg') center center;
+	background-size: cover;
+}
+
+/*BANNER STYLING ENDS HERE*/
+
+/*GENERAL STYLING STARTS HERE*/\
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'amaranthBold', sans-serif;
+}
+
+a, button{
+	font-family: 'amaranthRegular', sans-serif;
+}
+
+.overlay{
+	background-color:rgba(0, 0, 0, 0.3);
+	padding: 200px 0;
+}
+
+.btn-success{
+	background-color:#024709;
+	border-color: #024709;
+	padding:10px 25px;
+}
+
+/*GENERAL STYLING ENDS HERE*/
+
+/*COOKIE SECTION STARTS HERE*/
+
+#cookies{
+	position: relative;
+	top:-150px;
+	background-color:#A59D9D;
+	color:#fff;
+}
+
+.btn-default{
+	background-color:#222322;
+	color:#fff;
+}
+
+#cookies p{
+	margin: 0;
+}
+/*COOKIE SECTION ENDS HERE*/
+
+/*RECENT PRODUCT STYLING STARTS HERE*/
+
+#recent{
+	background: #F1F1F1;
+}
+
+.inner-product img{
+	width:100%;
+	height: auto;
+}
+
+.inner-product{
+	border:2px solid rgba(204, 206, 204, 0.5);
+	text-align: center;
+}
+/*RECENT PRODUCT STYLING ENDS HERE*/
+
+/*BANNER2 STYLING STARTS HERE*/
+
+#banner2{
+	background: url('../images/man.jpg') center center;
+}
+/*BANNER2 STYLING END HERE*/
+
+/*WORKS SECTION STARTS HERE*/
+
+#works{
+	background-color:rgba(204, 206, 204, 0.5);
+}
+
+.section-title{
+	margin-bottom: 30px;
+}
+
+#works .fa{
+	font-size: 70px;
+	margin-bottom: 25px;
+}
+
+#works .fa + h4{
+	margin-bottom: 20px;
+}
+
+#works h4 + p{
+ 	margin-bottom: 50px;
+ }
+
+/*WORKS SECTION ENDS HERE*/
+
+/*VIDEO STYLING STARTS HERE*/
+
+#videoClients video{
+	width: 100%;
+	height: auto;
+}
+
+#banner3{
+	background: url("../images/peopleBench.jpg") no-repeat center center;
+}
+/*VIDEO STYLING ENDS HERE*/
+
+/*TESTIMONIAL STARTS HERE*/
+
+#testimonial h2{
+	margin-bottom: 40px;
+}
+
+#testimonial p{
+	margin-bottom: 40px;
+}
+
+#siteFooter{
+	background-color:#686464;
+}
+
+.icon-box{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border:solid 2px #fff;
+	display: inline-block;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.icon-box  .fa{
+	/*font-size: 15px;*/
+	text-align: center;
+	color:#fff;
+	line-height: 20px;
+	/*padding-right: 10px;*/
+}
+
+.logo-title span{
+	color:#fff;
+	font-size: 18px;
+}
+
+#siteFooter .nav-item{
+	border-right: 1px solid #fff !important;
+}
+
+#siteFooter .nav-item:last-child{
+	border-right: none !important;
+}
+
+#siteFooter .nav{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#siteFooter .nav-link{
+	color: #fff;
+}
+
+.footer-social{
+	display: inline-block;
+	text-align: text-center
+}
+
+.footer-social > a{
+	color:#fff;
+	font-size: 40px;
+	padding-right: 10px;
+}
+
+.btn-signup{
+	background: #fff;
+	color:#000;
+	width: 70%;
+	padding: 13px 10px;
+}
+
+.inner-footer{
+	border-bottom: 1px dotted #fff;
+	padding: 40px 0;
+	margin-bottom: 30px;
+}
+
+.link{
+	color:#fff;
+}
+/*TESTIMONIAL ENDS HERE*/
